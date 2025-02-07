@@ -11,6 +11,7 @@ padding: 0 15px;
 }
 header{
     font-size: 0;
+    padding: 0;
 }
 
 .logo,
@@ -57,7 +58,7 @@ header{
         margin: 0 25px;
     }
     .header_social a {
-        text-decoration: underline;
+        text-decoration: none;
         color: #3d3d3d; ;
         
         padding-bottom: 30px;
@@ -69,3 +70,54 @@ header{
     .header_social a:hover {
 border-bottom: solid 3px #46A358;
     }
+
+.button1 {
+  width: 140px;
+  height: 40px;
+  background: #46A358;
+  color: #fff;
+  border: 1px solid #46A358;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding-left: 41px;
+  margin: 44px;
+  display: flex;
+  
+  }
+
+.container2 {
+  width: 1200px;
+  height: 450px;
+  padding: 0 15px;
+   margin: 12px auto;
+  }
+
+  .welcome-text,
+  .flower1{
+    display: inline-block;
+    border: 1px;
+    vertical-align: middle;
+  }
+.welcome-text{
+    width: 48%;
+}
+.flower1{
+width: 48%;
+}
+.welcome{
+margin: 7px;
+padding-left:   43px;
+}
+.about{
+margin:  7px;
+padding-left:  40px;
+
+}
+.about2{
+margin:  5px;
+padding-left: 43px;
+
+}
